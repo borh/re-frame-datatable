@@ -1,0 +1,5 @@
+{:deps    {re-frame {:mvn/version "0.11.0-rc4"}
+           reagent  {:mvn/version "0.9.1"}}
+ :paths   ["src"]
+ :aliases {:test {:extra-paths ["test"]
+                  :extra-deps  {}}}}
